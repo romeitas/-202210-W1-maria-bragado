@@ -33,7 +33,7 @@ const clear = (display) => {
 
 const addEventListener = () => {
     const display = document.querySelector('.calculator-display');
-    const keypadButtons = document.getElementsByClassName('keypad-button');
+    const keypadButtons = document.querySelectorAll('.keypad-button');
 
     const keypadButtonsArray = Array.from(keypadButtons);
 
