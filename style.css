@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+    /* border-radius: 10px; */
+}
+
+.calculadora {
+    text-align: center;
+    height: 90px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: lavender;
+    background-color: lavender;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bingo {
+    text-align: center;
+    height: 90px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: mistyrose;
+    background-color: mistyrose;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pasapalabra {
+    text-align: center;
+    height: 90px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: lightgray;
+    background-color: lightgray;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}
