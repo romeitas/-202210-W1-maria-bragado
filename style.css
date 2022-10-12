@@ -58,3 +58,10 @@ a:hover {
     background-color: lightgray;
     color: whitesmoke;
 }
+
+img {
+    /* width: 100px;
+    height: 100px; */
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
